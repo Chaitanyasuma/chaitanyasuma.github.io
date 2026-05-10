@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chaitanyasuma Jain</title>
+  <meta name="description" content="Privacy Engineer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=DM+Sans:wght@300;400;500&family=Syne+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ══ HEADER ══ -->
+<header>
+  <div class="site-avatar">✦</div>
+  <a href="index.html" class="site-name">Chaitanyasuma <em>Jain</em></a>
+  <p class="site-tagline">privacy engineer · researcher in systems & privacy · occasional writer</p>
+</header>
+
+<!-- ══ NAV ══
+     Anchors on this page: #work  #pursuits  #connect
+     Other pages: research.html  leadership.html  blog.html
+-->
+<nav>
+  <a href="#work">work</a>
+  <a href="research.html">research</a>
+  <a href="research.html">projects</a>
+  <a href="blog.html">blog</a>
+  <a href="#pursuits">pursuits</a>
+  <a href="leadership.html">leadership</a>
+  <a href="#connect">connect</a>
+</nav>
+
+<!-- ══ SOCIALS ══ -->
+<div class="socials">
+  <a href="https://linkedin.com/in/Chaitanyasuma" target="_blank" rel="noopener">LinkedIn</a>
+  <span>·</span>
+  <a href="https://github.com/Chaitanyasuma" target="_blank" rel="noopener">GitHub</a>
+  <span>·</span>
+  <a href="https://chaitanyasuma.medium.com/" target="_blank" rel="noopener">Medium</a>
+  <span>·</span>
+  <a href="https://twitter.com/chaitanyasumaa" target="_blank" rel="noopener">@chaitanyasumaa</a>
+</div>
+
+<div class="divider"></div>
+
+<!-- ══ CARD GRID ══ -->
+<div class="grid">
+
+  <!-- ─────────────────────────────────────────────────
+       CARD: Intro / hero — wide (spans 2 cols)
+       To replace hero photo: swap <div class="hero-photo-slot">
+       with <img src="assets/images/hero.jpg" style="width:calc(100%+4rem);
+       margin:-2rem -2rem 0; border-radius:16px 16px 0 0; height:220px;
+       object-fit:cover;" alt="hero" />
+  ───────────────────────────────────────────────── -->
+  <div class="card wide c-cream">
+    <img src="assets/images/msn1.jpeg"
+     alt="hero"
+     style="width:calc(100% + 4rem); margin:-2rem -2rem 0;
+            border-radius:16px 16px 0 0; height:240px; object-fit:cover;" />
+    <div style="padding-top:1.25rem;">
+      <div class="card-label">about me</div>
+      <div class="card-title xl">I thrive in environments that<br><em>enable innovation and creativity.</em></div>
+      <p class="card-body" style="max-width:500px; margin-top:0.5rem;">
+        My interests lie in the intersection of privacy and cloud-native systems. Currently building agentic tooling for privacy at scale at Amazon Devices & Services. 
+      </p>
+    </div>
+  </div>
+
+  <!-- ─────────────────────────────────────────────────
+       CARD: Blank — 1 col  ← ADD WHATEVER YOU LIKE HERE
+       Change class color: c-sage / c-mint / c-yellow / c-peach /
+       c-sky / c-lavender / c-rose / c-cream / c-white
+  ───────────────────────────────────────────────── -->
+  <div class="card c-white" style="min-height:220px;">
+    <div class="card-label">TODO: your choice</div>
+    <div class="card-title" style="opacity:0.3;">add a card here</div>
+    <p class="card-body" style="opacity:0.3;">
+      Fun fact: i read 30 books a year on average for the past 5 years. 
+    </p>
+  </div>
+
+  <!-- ══════════════ WORK ══════════════ -->
+  <div class="card c-sage" id="work">
+    <div class="year-pill">jun 2025 - present</div>
+    <div class="card-label">current role</div>
+    <div class="card-illo">💬</div>
+    <div class="card-title">Amazon, Seattle</div>
+    <p class="card-body">
+      Privacy Engineer on the Trust, Privacy & Accessiblity team
+    </p>
+    <div class="card-tags">
+      <span class="tag">privacy engineering</span>
+      <span class="tag">agentic tooling</span>
+      <span class="tag">privacy by design</span>
+    </div>
+  </div>
+  <div class="card c-sage" id="work">
+    <div class="year-pill">sept 2024 – nov 2024</div>
+    <div class="card-label">fall internship</div>
+    <div class="card-illo">📡</div>
+    <div class="card-title">Amazon, Seattle</div>
+    <p class="card-body">
+      Data Engineer at Amazon Prime Video (and a short stint at AWS Marketplace)
+    </p>
+    <div class="card-tags">
+      <span class="tag">data engineering</span>
+      <span class="tag">business reporting & analytics</span>
+      <span class="tag">data architecture</span>
+    </div>
+  </div>
+  <div class="card c-sage" id="work">
+    <div class="year-pill">May 2024 - Aug 2024</div>
+    <div class="card-label">summer internship</div>
+    <div class="card-illo">📈</div>
+    <div class="card-title">Splunk, Colorado</div>
+    <p class="card-body">
+      Performance Engineering at Splunk
+    </p>
+    <div class="card-tags">
+      <span class="tag">performance engineering</span>
+      <span class="tag">distributed systems</span>
+    </div>
+  </div>
+  <!-- ─────────────────────────────────────────────────
+       CARD: MongoDB — self-contained, no external link
+  ───────────────────────────────────────────────── -->
+  <div class="card c-sage" id="work">
+    <div class="year-pill">2022 – 2023</div>
+    <div class="card-label">previous role</div>
+    <div class="card-illo">🍃</div>
+    <div class="card-title">MongoDB India</div>
+    <p class="card-body">
+      Software Engineer II on the Data Platform Engineering team — building infrastructure for reliability, performance, and developer experience at scale.
+    </p>
+    <div class="card-tags">
+      <span class="tag">platform engineering</span>
+      <span class="tag">distributed systems</span>
+      <span class="tag">MLOps</span>
+    </div>
+  </div>
+
+  <!-- ─────────────────────────────────────────────────
+       CARD: Walmart — self-contained
+  ───────────────────────────────────────────────── -->
+  <div class="card c-mint">
+    <div class="year-pill">2021 – 22</div>
+    <div class="card-label">previous role</div>
+    <div class="card-illo">🛒</div>
+    <div class="card-title">Walmart Global Tech</div>
+    <p class="card-body">
+      Software Engineer contributing to large-scale retail technology solutions, working across global markets and product lines.
+    </p>
+    <div class="card-tags">
+      <span class="tag">software engineering</span>
+      <span class="tag">retail tech</span>
+    </div>
+  </div>
+
+  <!-- ─────────────────────────────────────────────────
+       CARD: Publications — links to Google Scholar (external)
+       Replace # with your actual Google Scholar profile URL
+  ───────────────────────────────────────────────── -->
+  <a class="card c-yellow" href="https://scholar.google.com/citations?user=B7C4faEAAAAJ&hl=en" target="_blank" rel="noopener">
+    <!-- TODO: Replace href above with your actual Google Scholar URL -->
+    <div class="card-label">publications</div>
+    <div class="card-illo">📄</div>
+    <div class="card-title">Google <em>Scholar</em></div>
+    <p class="card-body">
+      Peer-reviewed publications in databases & privacy, data mining, and nlp. View full list on Google Scholar.
+    </p>
+  </a>
+
+  <!-- ══════════════ RESEARCH ══════════════ -->
+  <!-- ─────────────────────────────────────────────────
+       CARD: Data Privacy — links to research.html
+       All 3 research cards open the SAME page (research.html)
+       so visitors can explore all research in one place.
+  ───────────────────────────────────────────────── -->
+  <a class="card wide c-sky" href="research.html" id="research">
+    <div class="card-label">research interest</div>
+    <div class="card-title lg">Data <em>Privacy</em></div>
+    <p class="card-body">
+      The intersection of data utility and individual rights — privacy-preserving techniques, differential privacy, and responsible AI.
+    </p>
+    <div class="card-tags">
+      <span class="tag">differential privacy</span>
+      <span class="tag">database privacy</span>
+      <span class="tag">responsible AI</span>
+    </div>
+  </a>
+
+  <!-- ─────────────────────────────────────────────────
+       CARD: Data Mining → research.html
+  ───────────────────────────────────────────────── -->
+  <a class="card c-lavender" href="research.html">
+    <div class="card-label">research interest</div>
+    <div class="card-illo">🔍</div>
+    <div class="card-title">Data <em>Mining & Human-Computer Interaction</em></div>
+    <p class="card-body">
+      Extracting structure from unstructured data. Includes IEEE-awarded work (ICAECT 2023).
+    </p>
+  </a>
+
+  <!-- ─────────────────────────────────────────────────
+       CARD: Data Visualisation → research.html
+  ───────────────────────────────────────────────── -->
+  <a class="card c-yellow" href="research.html">
+    <div class="card-label">research interest</div>
+    <div class="card-illo">📊</div>
+    <div class="card-title">Data <em>Visualisation</em></div>
+    <p class="card-body">
+      Translating complex datasets into visual stories that are accessible, and meaningful at scale.
+    </p>
+  </a>
+
+  <!-- ══════════════ LEADERSHIP ══════════════ -->
+  <!-- ─────────────────────────────────────────────────
+       CARD: Leadership 1 → leadership.html
+       Update card-label / card-title / card-body to match
+       your real leadership area. Add more cards below if needed.
+  ───────────────────────────────────────────────── -->
+  <a class="card c-rose" href="leadership.html">
+    <div class="card-label">leadership</div>
+    <div class="card-illo">🌱</div>
+    <div class="card-title"><em>Leadership</em></div>
+    <p class="card-body">
+      I enjoy spending my free time connecting with other women in technology, mentoring students, and volunteering for student organisations.
+    </p>
+  </a>
+
+  <!-- ─────────────────────────────────────────────────
+       CARD: Leadership 2 → leadership.html
+  ───────────────────────────────────────────────── -->
+  <a class="card c-peach" href="leadership.html">
+    <div class="card-label">innovation</div>
+    <div class="card-illo">💡</div>
+    <div class="card-title"><em>Innovation</em></div>
+    <p class="card-body">
+      I am an avid problem-solver, having practiced chess and abacus as a child; now, tackling diverse problems from sustainability to technology for good. 
+    </p>
+  </a>
+
+  <!-- ══════════════ EDUCATION ══════════════ -->
+  <!-- ─────────────────────────────────────────────────
+       CARD: Education — wide, fully self-contained
+  ───────────────────────────────────────────────── -->
+  <div class="card wide c-mint">
+    <div class="card-label">education</div>
+    <div style="display:flex; gap:2rem; align-items:flex-start; flex-wrap:wrap; margin-top:0.25rem;">
+      <div style="flex:1; min-width:200px;">
+        <div class="card-title" style="font-size:1.05rem; margin-bottom:0.3rem;">M.S., Computer Sciences</div>
+        <div class="card-body">University of Wisconsin-Madison</div>
+        <div class="card-label" style="margin-top:0.6rem;">2023 - 2025</div>
+      </div>
+      <div style="flex:1; min-width:200px;">
+        <div class="card-title" style="font-size:1.05rem; margin-bottom:0.3rem;">B.Tech, Computer Engineering</div>
+        <div class="card-body">MKSSS' Cummins College of Engineering for Women, Pune</div>
+        <div class="card-label" style="margin-top:0.6rem;">2017 — 2021</div>
+      </div>
+      <div style="width:1px; background:rgba(26,24,20,0.12); align-self:stretch;"></div>
+      <div style="flex:1; min-width:200px;">
+        <div class="card-title" style="font-size:1.05rem; margin-bottom:0.3rem;">Higher Secondary Certificate</div>
+        <div class="card-body">Fergusson College, Pune</div>
+        <div class="card-label" style="margin-top:0.6rem;">2015 — 2017</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════ PURSUITS ══════════════ -->
+  <!-- ─────────────────────────────────────────────────
+       CARD: Photography — self-contained
+       Replace card-img-slot with <img> when ready
+  ───────────────────────────────────────────────── -->
+  <div class="card c-white" id="pursuits">
+    <div class="card-label">pursuit</div>
+    <img src="assets/images/msn3.jpeg"
+     alt="describe the photo"
+     style="width:100%; border-radius:10px; height:200px; object-fit:cover;" />
+    <div class="card-title">Photography</div>
+    <p class="card-body">I find that the mundane is memory enough when seen through a lens.</p>
+  </div>
+
+  <!-- ─────────────────────────────────────────────────
+       CARD: Digital Art — self-contained
+  ───────────────────────────────────────────────── -->
+  <div class="card c-lavender">
+    <div class="card-label">pursuit</div>
+    <div class="card-illo">🎨</div>
+    <div class="card-title"><em>Art</em></div>
+    <p class="card-body">I use my ability to gadget and draw straight lines (sometimes) to indulge in graphic designing, digital art, and painting.</p>
+    <div class="card-img-slot">
+      <div class="ph-icon">🖼</div>
+      TODO: artwork sample · 400 × 180px
+    </div>
+  </div>
+
+  <!-- ─────────────────────────────────────────────────
+       CARD: Reading & Writing — self-contained (no image needed)
+  ───────────────────────────────────────────────── -->
+  <div class="card c-cream">
+    <div class="card-label">pursuit</div>
+    <div class="card-illo">📖</div>
+    <div class="card-title">Reading &amp; <em>Writing</em></div>
+    <p class="card-body">I love to read and I'm always up for a good old retelling of family and friendship. And even though it requires immense courage, occasionally, I write.</p>
+  </div>
+
+  <!-- ══════════════ CONNECT ══════════════ -->
+  <!-- ─────────────────────────────────────────────────
+       CARD: Connect — full width
+       Replace email addresses and social URLs as needed
+  ───────────────────────────────────────────────── -->
+  <div class="card full c-white" id="connect">
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:3rem; align-items:start;">
+      <div>
+        <div class="card-label">say hello</div>
+        <div class="card-title xl" style="margin-top:0.5rem; margin-bottom:0.85rem;">Let's <em>Talk</em></div>
+        <p class="card-body" style="max-width:360px;">
+          Open to conversations about privacy research, interesting systems problems, or a genuinely good book.
+        </p>
+        <div style="margin-top:1.25rem; display:flex; flex-direction:column; gap:0.35rem;">
+          <a href="mailto:chaitanyasuma@gmail.com" class="card-link">→ chaitanyasuma@gmail.com</a>
+        </div>
+      </div>
+      <div class="connect-links">
+        <a href="https://linkedin.com/in/Chaitanyasuma" target="_blank" rel="noopener" class="c-row">
+          <div class="c-row-left"><span class="c-platform">LinkedIn</span><span class="c-handle">in/Chaitanyasuma</span></div>
+          <span class="c-arr">→</span>
+        </a>
+        <a href="https://github.com/Chaitanyasuma" target="_blank" rel="noopener" class="c-row">
+          <div class="c-row-left"><span class="c-platform">GitHub</span><span class="c-handle">Chaitanyasuma</span></div>
+          <span class="c-arr">→</span>
+        </a>
+        <a href="https://chaitanyasuma.medium.com/" target="_blank" rel="noopener" class="c-row">
+          <div class="c-row-left"><span class="c-platform">Medium</span><span class="c-handle">@chaitanyasuma</span></div>
+          <span class="c-arr">→</span>
+        </a>
+        <a href="https://twitter.com/chaitanyasumaa" target="_blank" rel="noopener" class="c-row">
+          <div class="c-row-left"><span class="c-platform">Twitter / X</span><span class="c-handle">@chaitanyasumaa</span></div>
+          <span class="c-arr">→</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /grid -->
+
+<footer>© 2026 Chaitanyasuma Jain &nbsp;·&nbsp; chaitanyasuma.github.io</footer>
+
+<script>
+  // Scroll-reveal animation for cards
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('vis'); obs.unobserve(e.target); }
+    });
+  }, { threshold: 0.06 });
+
+  document.querySelectorAll('.card').forEach((el, i) => {
+    el.style.transitionProperty = 'opacity, transform, box-shadow';
+    el.style.transitionDuration = '0.55s';
+    el.style.transitionTimingFunction = 'ease';
+    el.style.transitionDelay = `${(i % 5) * 60}ms`;
+    obs.observe(el);
+  });
+</script>
+</body>
+</html>
